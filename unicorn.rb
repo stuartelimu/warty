@@ -9,7 +9,7 @@ stderr_path "/var/www/warty/logs/unicorn.log"
 stdout_path "/var/www/warty/logs/unicorn.log"
 
 # Unicorn socket
-listen "/tmp/unicorn.myapp.sock"
+listen "/var/www/warty/tmp/unicorn.warty.sock"
 
 # Number of processes
 worker_processes 2
